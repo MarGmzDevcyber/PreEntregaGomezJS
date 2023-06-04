@@ -7,7 +7,28 @@
         <title>Simulador de presupuesto para armar una PC</title>
     </head>
 <body>
-    <button onclick="sim()">Simular</button>
+    <h1>Simulador de Costo de PC</h1>
+
+    <label for="costoPlacaVideo">Costo de la placa de video:</label>
+    <input type="number" id="costoPlacaVideo">
+
+    <label for="costoPlacaMadre">Costo de la Placa Madre:</label>
+    <input type="number" id="costoPlacaMadre">
+
+    <label for="costoRAM">Costo de la memoria RAM:</label>
+    <input type="number" id="costoRAM">
+
+    <label for="costoDiscoDuro">Costo del disco duro:</label>
+    <input type="number" id="costoDiscoDuro">
+
+    <label for="costoGabinete">Costo del gabinete:</label>
+    <input type="number" id="costoGabinete">
+
+    <button id="sim">Simular</button>
+
+    <div id="resultado"></div>
+
     <script src="main.js"></script>
+
 </body>
 </html>
