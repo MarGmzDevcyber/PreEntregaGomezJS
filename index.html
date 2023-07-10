@@ -4,49 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Trabajo Final Js</title>
 </head>
+
 <body id="cuerpo">
-
     <header class="header">
-        <div class=" menu container">
-            <a href="#" class="logo"> Logo</a>
-                <label for="menu"><img src="img/menu (1).png" class="menu-icono" alt=""></label>
-                <nav class="navbar">
-                    <ul>
-                        <li> <a href="#">Inicio</a></li>
-                        <li><a href="#">Productos</a></li>
-                        <li><a href="#">Servicios</a></li>
-                        <li><a href="#">Contacto</a></li>
-                    </ul>
-                </nav>
-                <div>
-                    <ul>
-                        <li class="submenu">
-                            <img src="img/car.svg" id="img-carrito" alt="">
-                            <div id="carrito">
-                                <table id="lista-carrito">
-                                    <thead>
-                                        <tr>
-                                            <th>Nombre</th>
-                                            <th>Imagen</th>
-                                            <th>Precio</th>
-                                            <th></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody></tbody>
-                                </table>
-                                <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+        <div class="menu container">
+            <a href="#" class="logo">Logo</a>
+            <label for="menu"><img src="img/menu (1).png" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="img/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Nombre</th>
+                                        <th>Imagen</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-
         <div class="header-content">
-            <div id="mySwiper-1">
+            <div id="mySwiper-1" class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="header-info">
@@ -64,17 +63,17 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                            <div class="header-info">
-                                <div class="resum-header">
-                                    <h1>Teclado Aurora Logitech</h1>
-                                    <div class="precios">
-                                        <p class="precio-1">$40.000</p>
-                                        <p class="precio-2">$25.600</p>
-                                    </div>
-                                    <a href="#" class="btn-1">Informacion</a>
+                        <div class="header-info">
+                            <div class="resum-header">
+                                <h1>Teclado Aurora Logitech</h1>
+                                <div class="precios">
+                                    <p class="precio-1">$40.000</p>
+                                    <p class="precio-2">$25.600</p>
                                 </div>
+                                <a href="#" class="btn-1">Informacion</a>
                             </div>
-                            <div class="header-img">
+                        </div>
+                        <div class="header-img">
                             <img src="img/im4.png" alt="">
                         </div>
                     </div>
@@ -96,13 +95,12 @@
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
             </div>
         </div>
     </header>
     <hr>
     <section class="promos" id="lista-1">
-        <h2> Ofertas</h2>
+        <h2>Ofertas</h2>
         <div class="categories">
             <div class="category">
                 <div class="category-1">
@@ -111,46 +109,7 @@
                         <p class="precio-1">40.000</p>
                         <p class="precio">35.000</p>
                     </div>
-                    <a href="#" class="agregar-carrito btn-3" data-id="1"> Agregar al carrito</a>
-                </div>
-                <div class="category-img">
-                    <img src="img/fo1.png" alt="">
-                </div>
-            </div>
-            <div class="category">
-                <div class="category-1">
-                    <h3>Oferta 2</h3>
-                    <div class="precios">
-                        <p class="precio-1">40.000</p>
-                        <p class="precio">35.000</p>
-                    </div>
-                    <a href="#" class="agregar-carrito btn-3" data-id="2"> Agregar al carrito</a>
-                </div>
-                <div class="category-img">
-                    <img src="img/fo3.png" alt="">
-                </div>
-            </div>
-            <div class="category">
-                <div class="category-1">
-                    <h3>Oferta 1</h3>
-                    <div class="precios">
-                        <p class="precio-1">40.000</p>
-                        <p class="precio">35.000</p>
-                    </div>
-                    <a href="#" class="agregar-carrito btn-3" data-id="3"> Agregar al carrito</a>
-                </div>
-                <div class="category-img">
-                    <img src="img/fo4.png" alt="">
-                </div>
-            </div>
-            <div class="category">
-                <div class="category-1">
-                    <h3>Oferta 1</h3>
-                    <div class="precios">
-                        <p class="precio-1">40.000</p>
-                        <p class="precio">35.000</p>
-                    </div>
-                    <a href="#" class="agregar-carrito btn-3" data-id="4"> Agregar al carrito</a>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
                 </div>
                 <div class="category-img">
                     <img src="img/fo2.png" alt="">
@@ -163,7 +122,7 @@
 
     <section class="products" id="lista-2">
         <h2>Nuevos Productos</h2>
-        <div class="swiper mySwiper-2">
+        <div id="mySwiper-2" class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="product">
@@ -202,9 +161,9 @@
     </section>
 
     <hr>
-    <section class="products-container" id="lista-2">
+    <section class="products-container" id="lista-3">
         <h2>Productos</h2>
-        <div class="swiper mySwiper-2">
+        <div id="mySwiper-3" class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="product">
@@ -238,7 +197,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="product">
-                        <img src="/img/im6.webp" alt="">
+                        <img src="img/im6.webp" alt="">
                         <div class="producto-text">
                             <h3>Auriculares Redragon H510 Zeus 2</h3>
                             <p class="precio">$46000</p>
@@ -272,9 +231,7 @@
             </ul>
         </div>
         <div class="link">
-
             <h3>Datos</h3>
-
             <ul>
                 <li><a href="#">Contacto</a></li>
                 <li><a href="#">Contacto</a></li>
@@ -283,9 +240,7 @@
             </ul>
         </div>
         <div class="link">
-
             <h3>Datos</h3>
-
             <ul>
                 <li><a href="#">Contacto</a></li>
                 <li><a href="#">Contacto</a></li>
@@ -293,21 +248,11 @@
                 <li><a href="#">Contacto</a></li>
             </ul>
         </div>
-
         <div class="link">
-
             <h3>Datos</h3>
-
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima sint similique, laboriosam
-                error, perferendis nemo quisquam accusamus vero quis earum!</p>
-
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima sint similique, laboriosam
+                error, perferendis nemo quisquam accusamus vero quis earum!
+            </p>
         </div>
-
     </footer>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-<script src="/js/main.js"></script>
-
-
-</body>
-</html>
