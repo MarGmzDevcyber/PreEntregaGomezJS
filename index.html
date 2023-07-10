@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,199 +9,329 @@
     <title>Trabajo Final Js</title>
 </head>
 
-<body>
+<body id="cuerpo">
 
-        <header>
-            <div class="contenedor-menu">
-                <a href="#" class="logo"> Logo</a>
-                    <imput type="checkbox" id="menu">
-                        <label for="menu"><img src="" class="icono-menu" alt=""></label>
-                        <nav class="navbar">
-                            <ul>
-                                <li> <a href="#">Inicio</a></li>
-                                <li><a href="#">Productos</a></li>
-                                <li><a href="#">Servicios</a></li>
-                                <li><a href="#">Contacto</a></li>
-                            </ul>
-                        </nav>
+    <header>
+        <div class="contenedor-menu">
+            <a href="#" class="logo"> Logo</a>
+            <imput type="checkbox" id="menu">
+                <label for="menu"><img src="" class="icono-menu" alt=""></label>
+                <nav class="navbar">
+                    <ul>
+                        <li> <a href="#">Inicio</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
 
-                        <div>
-                            <ul>
-                                <li class="sub-menu">
-                                        <img src="" id="img-carrito" alt="">
-                                        <div id="carrito">
-                                            <table id="lista-carrito">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Nombre</th>
-                                                        <th>Imagen</th>
-                                                        <th>Precio</th>
-                                                        <th></th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody></tbody>
-                                            </table>
-                                            <a href="#" id="vaciar-carro" class="btn-3">Vaciar Carrito</a>
-                                        </div>
-                                </li>
-                            </ul>
-                        </div>
-            </div>
-    
-            <div class="header-content container">
-                    <div class="swiper mySwiper-1">
-                            <div class="swiper-wrapper">
-
-                                <div class="swiper-slide">
-                                <div class="header-info">
-                                        <div class="reheader">
-                                                <h1>Teclado Aurora Logitech</h1>
-                                                    <div class="precios">
-                                                        <p class="precio-uno">$40.000</p>
-                                                        <p class="precio-dos">$25.600</p>
-                                                    </div>
-                                                <a href="#" class="btn-1">Informacion</a>
-                                        </div>
-                                </div>
-                                <div class="header-img">
-                                        <img src="img/img1.jpg" alt="">      
-                                </div>
-                                </div>
-                                <div class="swiper-slide">
-                                        <div class="info-header">
-                                            <div class="resum-header">
-                                                    <h1>Teclado Aurora Logitech</h1>
-                                                        <div class="precios">
-                                                            <p class="precio-uno">$40.000</p>
-                                                            <p class="precio-dos">$25.600</p>
-                                                        </div>
-                                                    <a href="#" class="btn-1">Informacion</a>
-                                            </div>
-                                </div>
-                                        <div class="header-img">
-                                                <img src="img/img2.jpg" alt="">
-                                        </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="info-header">
-                                        <div class="resum-header">
-                                                <h1>Teclado Aurora Logitech</h1>
-                                                    <div class="precios">
-                                                        <p class="precio-uno">$40.000</p>
-                                                        <p class="precio-dos">$25.600</p>
-                                                    </div>
-                                                <a href="#" class="btn-1">Informacion</a>
-                                        </div>
-                                </div>
-                                <div class="header-img">
-                                    <img src="img/im3.jpg" alt="">
-                                </div>
-                                </div>
+                <div>
+                    <ul>
+                        <li class="sub-menu">
+                            <img src="" id="img-carrito" alt="">
+                            <div id="carrito">
+                                <table id="lista-carrito">
+                                    <thead>
+                                        <tr>
+                                            <th>Nombre</th>
+                                            <th>Imagen</th>
+                                            <th>Precio</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                                <a href="#" id="vaciar-carro" class="btn-3">Vaciar Carrito</a>
                             </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-pagination"></div>
-                    </div>
-            </div>
-
-
-        </header>
-
-        <hr>
-
-        <section class="promo-container" id="lista-1">
-
-            <h2> Ofertas</h2>
-
-            <div class="categorias">
-
-                    <div class="categoria">
-
-                            <div class="categoria-1">
-                                    <h3>Oferta 1</h3>
-                                    <div class="precios">
-                                        <p class="precio-1">40.000</p>
-                                        <p class="precio">35.000</p>
-                                    </div>
-                                    <a href="#" class="agregar-carrito btn-3" data-id="1"> Agregar al carrito</a>
-                            </div>
-                            <div class="categoria-img">
-                                <img src="img/ima1.jpg" alt="">
-                            </div>
-
-                    </div>
-                    <div class="categoria">
-                            <div class="categoria-1">
-                                    <h3>Oferta 2</h3>
-                                    <div class="precios">
-                                        <p class="precio-1">40.000</p>
-                                        <p class="precio">35.000</p>
-                                    </div>
-                                    <a href="#" class="agregar-carrito btn-3" data-id="1"> Agregar al carrito</a>
-                            </div>
-                            <div class="categoria-img">
-                                <img src="img/ima2.jpg" alt="">
-                            </div>
-
+                        </li>
+                    </ul>
                 </div>
-                <div class="categoria">
-                        <div class="categoria-1">
-                                <h3>Oferta 1</h3>
-                                <div class="precios">
-                                    <p class="precio-1">40.000</p>
-                                    <p class="precio">35.000</p>
-                                </div>
-                                <a href="#" class="agregar-carrito btn-3" data-id="1"> Agregar al carrito</a>
-                        </div>
-                        <div class="categoria-img">
-                            <img src="img/ima3.jpg" alt="">
-                        </div>
-
-            </div>
-            <div class="categoria">
-                    <div class="categoria-1">
-                            <h3>Oferta 1</h3>
-                            <div class="precios">
-                                <p class="precio-1">40.000</p>
-                                <p class="precio">35.000</p>
-                            </div>
-                            <a href="#" class="agregar-carrito btn-3" data-id="1"> Agregar al carrito</a>
-                    </div>
-                    <div class="categoria-img">
-                        <img src="" alt="">
-                    </div>
-            </div>
         </div>
 
-        </section>
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
 
-        <hr>
-
-        <section class="productos-container" id="lista-2">
-
-                <h2>Nuevos Productos</h2>
-
-                <div class="swiper mySwiper-2">
-
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide">
-
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="resum-header">
+                                <h1>Auriculares Aurora Logitech</h1>
+                                <div class="precios">
+                                    <p class="precio-uno">$40.000</p>
+                                    <p class="precio-dos">$25.600</p>
+                                </div>
+                                <a href="#" class="btn-1">Informacion</a>
+                            </div>
                         </div>
-                    
+                        <div class="header-img">
+                            <img src="img/ph1.png" alt="">
+                        </div>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-
+                    <div class="swiper-slide">
+                        <div class="info-header">
+                            <div class="resum-header">
+                                <h1>Teclado Aurora Logitech</h1>
+                                <div class="precios">
+                                    <p class="precio-uno">$40.000</p>
+                                    <p class="precio-dos">$25.600</p>
+                                </div>
+                                <a href="#" class="btn-1">Informacion</a>
+                            </div>
+                        </div>
+                        <div class="header-img">
+                            <img src="img/ph2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="info-header">
+                            <div class="resum-header">
+                                <h1>Mouse Aurora Logitech</h1>
+                                <div class="precios">
+                                    <p class="precio-uno">$40.000</p>
+                                    <p class="precio-dos">$25.600</p>
+                                </div>
+                                <a href="#" class="btn-1">Informacion</a>
+                            </div>
+                        </div>
+                        <div class="header-img">
+                            <img src="img/ph3.webp" alt="">
+                        </div>
+                    </div>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <section class="promo-container" id="lista-1">
+        <h2> Ofertas</h2>
+        <div class="categorias">
+            <div class="categoria">
+                <div class="categoria-1">
+                    <h3>Oferta 1</h3>
+                    <div class="precios">
+                        <p class="precio-1">40.000</p>
+                        <p class="precio">35.000</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1"> Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="img/fo1.png" alt="">
+                </div>
+            </div>
+            <div class="categoria">
+                <div class="categoria-1">
+                    <h3>Oferta 2</h3>
+                    <div class="precios">
+                        <p class="precio-1">40.000</p>
+                        <p class="precio">35.000</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2"> Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="img/fo3.png" alt="">
+                </div>
+            </div>
+            <div class="categoria">
+                <div class="categoria-1">
+                    <h3>Oferta 1</h3>
+                    <div class="precios">
+                        <p class="precio-1">40.000</p>
+                        <p class="precio">35.000</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3"> Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="img/fo4.png" alt="">
+                </div>
+            </div>
+            <div class="categoria">
+                <div class="categoria-1">
+                    <h3>Oferta 1</h3>
+                    <div class="precios">
+                        <p class="precio-1">40.000</p>
+                        <p class="precio">35.000</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4"> Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="img/fo2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
 
+    <section class="productos-container" id="lista-2">
+        <h2>Nuevos Productos</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="img/im1.png" alt="">
+                        <div class="producto-text">
+                            <h3>Auriculares Redragon Lumia</h3>
+                            <p class="precio">$35000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="img/im2.png" alt="">
+                        <div class="producto-text">
+                            <h3>Teclado Mecanico Redragon K618</h3>
+                            <p class="precio">$47000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="img/im3.png" alt="">
+                        <div class="producto-text">
+                            <h3>Mouse Gamer Redragon Cobra Lunar</h3>
+                            <p class="precio">$28000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="img/im4.png" alt="">
+                        <div class="producto-text">
+                            <h3>Auriculares Redragon H510 Zeus 2</h3>
+                            <p class="precio">$46000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="img/im5.png" alt="">
+                        <div class="producto-text">
+                            <h3>Teclado Mecanico Redragon Diti K585</h3>
+                            <p class="precio">$29800</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
 
-        </section>
+    <hr>
+    <section class="productos-container" id="lista-2">
+        <h2>Productos</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="img/im6.webp" alt="">
+                        <div class="producto-text">
+                            <h3>Auriculares Redragon Lumia</h3>
+                            <p class="precio">$35000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="10">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="img/im7.webp" alt="">
+                        <div class="producto-text">
+                            <h3>Teclado Mecanico Redragon K618</h3>
+                            <p class="precio">$47000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="11">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="img/im8.png" alt="">
+                        <div class="producto-text">
+                            <h3>Mouse Gamer Redragon Cobra Lunar</h3>
+                            <p class="precio">$28000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="12">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="img/im9.png" alt="">
+                        <div class="producto-text">
+                            <h3>Auriculares Redragon H510 Zeus 2</h3>
+                            <p class="precio">$46000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="13">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="img/im10.png" alt="">
+                        <div class="producto-text">
+                            <h3>Teclado Mecanico Redragon Diti K585</h3>
+                            <p class="precio">$29800</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="14">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <footer class="footer-contenedor">
 
+        <div class="link">
 
+            <h3>Datos</h3>
+
+            <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="link">
+
+            <h3>Datos</h3>
+
+            <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Contacto</a</li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="link">
+
+            <h3>Datos</h3>
+
+            <ul>
+                <li><a href="">Contacto</a></li>
+                <li><a href="">Contacto</a></li>
+                <li><a href="">Contacto</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="link">
+
+            <h3>Datos</h3>
+            
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima sint similique, laboriosam error, perferendis nemo quisquam accusamus vero quis earum!</p>
+        </div>
+    
+    </footer>
 
 
 
     <script src="js/main.js"></script>
 </body>
+
 </html>

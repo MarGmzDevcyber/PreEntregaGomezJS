@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100;700;1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+#cuerpo {
+    font-family: 'Ysabeau SC', sans-serif ;
+    background: linear-gradient(to bottom, #a8c0ff, #3f2b96);
+}
+
+.contenedor-menu{
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+}
